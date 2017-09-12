@@ -1,0 +1,22 @@
+header {
+    width: 100%;
+    display: inline-block;
+    max-width: 1920px;
+    background: rgba(19, 27, 43, 0.70);
+    height: 70px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+.category .category-top-banner {
+    background-image: url("../images/category/banner-category.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    max-width: 1920px;
+    height: 487px;
+}
+.category .logo-header {
+    float: left;
+    line-height: 61px;
+}
