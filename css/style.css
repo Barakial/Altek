@@ -1,3 +1,11 @@
+button {
+    outline: none;
+}
+ul {
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 0px;
+}
 header {
     width: 100%;
     display: inline-block;
@@ -12,6 +20,7 @@ header {
     background-image: url("../images/category/banner-category.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     width: 100%;
     max-width: 1920px;
     height: 487px;
@@ -19,4 +28,177 @@ header {
 .category .logo-header {
     float: left;
     line-height: 61px;
+}
+.button-menu-cart {
+    float: left;
+}
+.button-menu-cart .menu-hover {
+    border: none;
+    float: left;
+    line-height: 68px;
+    background: #aa0b25;
+    color: #eef4fc;
+    font-size: 17px;
+    padding: 0 15px;
+    border-bottom: 2px solid #7f081c;
+    font-family: 'GothamPro';
+}
+.button-menu-cart .modal-cart {
+    border: navajowhite;
+    line-height: 68px;
+    border-bottom: 2px solid #7f081c;
+    padding: 0 13px;
+    border-left: 1px solid #970a21;
+    background: #a10a23;
+    color: #fff;
+    font-size: 20px;
+    position: relative;
+}
+.button-menu-cart .modal-cart .number-cart-product {
+    font-size: 12px;
+    position: absolute;
+    top: -15px;
+    right: 5px;
+}
+.top-navigation {
+    float: left;
+}
+.top-navigation ul {
+    padding-left: 15px;
+}
+.top-navigation ul li {
+    display: inline-block;
+    line-height: 70px;
+}
+.top-navigation ul li a {
+    display: block;
+    color: #eef4fc;
+    font-size: 17px;
+    padding-right: 15px;
+    font-family: 'GothamPro';
+}
+.header-login {
+    float: left;
+}
+.header-login button {
+    line-height: 70px;
+    background: transparent;
+    border: none;
+    font-size: 17px;
+    color: #eef4fc;
+    border-left: 1px solid rgba(238, 238, 238, 0.17);
+    border-right: 1px solid rgba(238, 238, 238, 0.17);
+    padding: 0 15px;
+    font-family: 'GothamPro';
+}
+.select-language {
+    float: left;
+}
+.select-language button {
+    border: none;
+    background: transparent;
+    line-height: 70px;
+    padding: 0 0px;
+    padding-left: 15px;
+}
+.select-language button i {
+    color: rgba(255, 255, 255, 0.66);
+    padding-left: 5px;
+}
+.list-language {
+    display: none;
+    padding-left: 0px;
+}
+.list-language li {
+    list-style: none;
+    padding-left: 0px;
+}
+.list-language li a {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+.list-language li a img {
+    display: block;
+    margin: 10px auto;
+}
+ul.list-language {
+    margin-bottom: 0px;
+    background: rgba(19, 27, 43, 0.70);
+    position: relative;
+    top: -25px;
+    padding: 5px 15px;
+    left: 0px;
+}
+.title-category {
+    display: inline-block;
+    width: 100%;
+    margin-top: 90px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #fff;
+}
+.title-category h1 {
+    color: #eef4fc;
+    font-size: 28px;
+    font-family: 'GothamPro-Medium';
+}
+.desc-category {
+    width: 100%;
+    display: inline-block;
+    margin-top:65px;
+}
+.desc-category h2 {
+    font-family: 'GothamPro-Medium';
+    color: #eef4fc;
+    font-size: 21px;
+    display: inline;
+    line-height: 35px;
+    background: rgba(0, 0, 0, 0.33);
+}
+.desc-category p {
+    font-family: 'GothamPro';
+    color: #eef4fc;
+    font-size: 18px;
+    margin-top: 35px;
+    background: rgba(0, 0, 0, 0.33);
+}
+.breadcrumbs {
+    display: inline-block;
+    width: 100%;
+    background: #f9f9f9;
+}
+.breadcrumbs ul {
+    margin-bottom: 0px;
+}
+.breadcrumbs ul li {
+    list-style: none;
+    display: inline-block;
+    padding-right: 15px;
+}
+.breadcrumbs ul li a {
+    font-family: 'GothamPro-Medium';
+    color: #8c9aad;
+    font-size: 12px;
+    line-height: 30px;
+    display: block;
+    position: relative;
+}
+.breadcrumbs ul li a:after {
+    content:"\f105";
+    font: normal normal normal 14px/1 FontAwesome;
+    position: relative;
+    left: 10px;
+}
+
+.breadcrumbs ul li:last-child a:after {
+    display: none;
+}
+.breadcrumbs ul li:last-child a {
+    color: #2a3a53;
+}
+.category-content {
+    display: inline-block;
+    width: 100%;
+    background: #f4f4f4;
+    padding: 25px 0px;
 }
