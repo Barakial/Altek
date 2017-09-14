@@ -224,7 +224,7 @@
                             <div class="block-buy-product">
                                 <a href="#">Купить</a>
                                 <button type="button">
-                                    <i class="material-icons">poll</i>
+                                    <i class="material-icons">equalizer</i>
                                 </button>
                             </div>
                             <div class="block-icon-characteristics">
@@ -265,7 +265,154 @@
 
 </body>
 <footer>
+<div class="container">
+    <div class="col-md-3">
+        <div class="logo-footer">
+            <img src="img/logo-header.png">
+        </div>
+        <div class="phone-footer">
+            <i class="material-icons">stay_primary_portrait</i>
+            <p>+38 056 732 25 28</p>
+            <p>+38 067 524 72 46</p>
+            <p>+38 050 552 00 89</p>
+        </div>
+        <div class="address-footer">
+            <i class="material-icons">location_on</i>
+            <p>
+                49083, Украина,<br>
+                г.Днепропетровск,<br>
+                ул. Собинова, 1
+            </p>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="link-footer-block">
+            <p>О компании</p>
+            <ul>
+                <li>
+                    <a href="#">История</a>
+                </li>
+                <li>
+                    <a href="#">Миссия</a>
+                </li>
+                <li>
+                    <a href="#">Команда</a>
+                </li>
+                <li>
+                    <a href="#">Преимущества</a>
+                </li>
+                <li>
+                    <a href="#">Для СМИ</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="link-footer-block">
+            <p>Услуги</p>
+            <ul>
+                <li>
+                    <a href="#">Обучение персонала</a>
+                </li>
+                <li>
+                    <a href="#">Подготовка ТЭО, бизнес-планирование</a>
+                </li>
+                <li>
+                    <a href="#">Энергоаудит</a>
+                </li>
+                <li>
+                    <a href="#">Проектирование</a>
+                </li>
+                <li>
+                    <a href="#">Монтаж</a>
+                </li>
+                <li>
+                    <a href="#">Сервисное обслуживание</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="link-footer-block">
+            <p>Контакты</p>
+            <ul>
+                <li>
+                    <a href="#">Офисы и представительства</a>
+                </li>
+                <li>
+                    <a href="#">Как стать партнером</a>
+                </li>
+                <li>
+                    <a href="#">Где купить (Карта диллеров)</a>
+                </li>
+                <li>
+                    <a href="#">Для диллеров</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="bottom-block-footer">
+    <div class="col-md-3">
+        <div id="map">
 
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="link-footer-block">
+            <p>Продукция</p>
+            <ul>
+                <li>
+                    <a href="#">Вакуумные солнечные коллекторы</a>
+                </li>
+                <li>
+                    <a href="#">Плоские солнечные коллекторы</a>
+                </li>
+                <li>
+                    <a href="#">Термосифонные солнечные коллекторы</a>
+                </li>
+                <li>
+                    <a href="#">Гибридные солнечные коллекторы</a>
+                </li>
+                <li>
+                    <a href="#">Системы быстрого монтажа BRV</a>
+                </li>
+                <li>
+                    <a href="#">Системы гофрированных трубопроводов</a>
+                </li>
+                <li>
+                    <a href="#">Теплоизолированный трубопровод NanoFlex</a>
+                </li>
+                <li>
+                    <a href="#">Коллекторы гелиосистем серии SR, M-x</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="social-icon-link-footer">
+            <ul>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="subscribe-footer-news">
+            <form action="">
+                <input type="text" placeholder="Ваш e-mail">
+                <button type="button">Подписаться</button>
+            </form>
+            <p>Подписавшись на новостной дайджест, Вы даете согласие на получение писем на указанный email. Вы можете управлять подпиской на странице личного кабинета.</p>
+        </div>
+    </div>
+    </div>
+</div>
 </footer>
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/stylesheet.css">
@@ -280,4 +427,5 @@
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
 <script type="text/javascript" src="js/StartPlugin.js"></script>
+<script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDK2Rbh3nnU8hXp7Ov9ps1TOGwxsRSxnI8&callback=initMap" type="text/javascript"></script>
 </html>
