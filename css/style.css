@@ -464,7 +464,7 @@ ul.list-language {
     display: block;
     width: 100%;
     margin-bottom: 30px;
-    min-height: 465px;
+    min-height: 475px;
     background: #fff;
     box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.15);
 }
@@ -741,4 +741,116 @@ ul.list-coutri {
     width: 150px;
     border-bottom: 1px solid #000;
     background: rgba(255, 255, 255, 0.16);
+}
+.product-card {
+    display: inline-block;
+    width:100%;
+    margin-top: 70px;
+}
+.carousel-photo-product {
+    float: left;
+    width: 20%;
+    height: 300px;
+    overflow: hidden;
+}
+.image-thumb-product {
+    float: left;
+    width: 80%;
+}
+.image-thumb-product img {
+    width: 100%;
+}
+
+.attributes-icon-product {
+    width: 330px;
+    display: inline-block;
+    margin: 40px auto;
+}
+.attributes-icon-product .icon-title-characteristics {
+    float: left;
+    width: 25%;
+}
+.attributes-icon-product .icon-title-characteristics span,
+.attributes-icon-product .icon-title-characteristics p{
+    display: block;
+    text-align: center;
+}
+h1.title-product-card {
+    font-family: 'GothamPro-Medium';
+    font-size: 28px;
+    text-align: center;
+    color: #000;
+}
+.cod-product-card {
+    width: 100%;
+    display: inline-block;
+    margin: 40px auto;
+}
+.cod-product-card span {
+    display: block;
+    text-align: center;
+    color: #393939;
+    font-size: 15px;
+    font-family: 'GothamPro';
+}
+.price-product-card p {
+    font-size: 28px;
+    color: #393939;
+    display: block;
+    text-align: center;
+    font-family: 'GothamPro-Medium';
+    margin-bottom: 0px;
+}
+.price-product-card span {
+    display: block;
+    text-align: center;
+    font-family: 'GothamPro-Medium';
+    color: #bebebe;
+    font-size: 18px;
+    text-decoration: line-through;
+}
+.price-product-card {
+    margin-bottom: 30px;
+}
+.button-group-end-onclick {
+    margin-bottom: 20px;
+}
+button.buy-product-card {
+    width: 270px;
+    height: 55px;
+    margin: auto;
+    display: block;
+    border: none;
+    border-radius: 3px;
+    background: #b91631;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'GothamPro-Medium';
+}
+button.buy-onclick-product-card {
+    width: 270px;
+    height: 55px;
+    margin: auto;
+    display: block;
+    border: 2px solid #2a3a53;
+    border-radius: 3px;
+    background: transparent;
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: 'GothamPro-Medium';
+    color: #2a3a53;
+}
+.button-group-compare-whitelist {
+    width: 240px;
+    margin: auto;
+}
+.button-group-compare-whitelist button {
+    background: transparent;
+    border: none;
+}
+.button-group-compare-whitelist button i {
+    display: block;
+    font-size: 18px;
+    color: #2a3a53;
 }

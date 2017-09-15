@@ -207,47 +207,127 @@
                 </div>
             </div>
             <div class="product">
-                <?php for ($i = 0; $i < 25; $i++) { ?>
+                <?php for ($i = 0; $i < 10; $i++) { ?>
                 <div class="col-md-3">
-                    <a href="#">
-                        <div class="product-min-cart">
-                            <a href="#">
-                                <img src="img/img_1.jpg" alt="" title="">
-                            </a>
-                            <a href="#" class="product-title">Солнечные батарея 1</a>
-                            <span class="cod-product">
+                        <a href="#">
+                            <div class="product-min-cart">
+                                <a href="#">
+                                    <img src="img/img_1.jpg" alt="" title="">
+                                </a>
+                                <a href="#" class="product-title">Солнечные батарея 1</a>
+                                <span class="cod-product">
                                 Код: 193284 KH
                             </span>
-                            <p class="price-product">
-                                39 000.99 грн
-                            </p>
-                            <div class="block-buy-product">
-                                <a href="#">Купить</a>
-                                <button type="button">
-                                    <i class="material-icons">equalizer</i>
-                                </button>
+                                <p class="price-product">
+                                    39 000.99 грн
+                                </p>
+                                <div class="block-buy-product">
+                                    <a href="#">Купить</a>
+                                    <button type="button">
+                                        <i class="material-icons">equalizer</i>
+                                    </button>
+                                </div>
+                                <div class="block-icon-characteristics">
+                                    <div class="icon-title-characteristics">
+                                        <span class="icon-season"></span>
+                                        <p>Сезонность</p>
+                                    </div>
+                                    <div class="icon-title-characteristics">
+                                        <span class="icon-flat"></span>
+                                        <p>Heat pipe</p>
+                                    </div>
+                                    <div class="icon-title-characteristics">
+                                        <span class="icon-active"></span>
+                                        <p>Активный</p>
+                                    </div>
+                                    <div class="icon-title-characteristics">
+                                        <span class="icon-shipping"></span>
+                                        <p>Бесплатная доставка</p>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="block-icon-characteristics">
-                                <div class="icon-title-characteristics">
-                                    <span class="icon-season"></span>
-                                    <p>Сезонность</p>
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="#">
+                            <div class="product-min-cart">
+                                <a href="#">
+                                    <img src="img/img_1.jpg" alt="" title="">
+                                </a>
+                                <a href="#" class="product-title">Солнечные батарея 1</a>
+                                <span class="cod-product">
+                                Код: 193284 KH
+                            </span>
+                                <p class="price-product">
+                                    39 000.99 грн
+                                </p>
+                                <div class="block-buy-product">
+                                    <a href="#">Купить</a>
+                                    <button type="button">
+                                        <i class="material-icons">equalizer</i>
+                                    </button>
                                 </div>
-                                <div class="icon-title-characteristics">
-                                    <span class="icon-flat"></span>
-                                    <p>Heat pipe</p>
-                                </div>
-                                <div class="icon-title-characteristics">
-                                    <span class="icon-active"></span>
-                                    <p>Активный</p>
-                                </div>
-                                <div class="icon-title-characteristics">
-                                    <span class="icon-shipping"></span>
-                                    <p>Бесплатная доставка</p>
+                                <div class="block-icon-characteristics">
+                                    <div class="icon-title-characteristics">
+                                        <span class="icon-season"></span>
+                                        <p>Сезонность</p>
+                                    </div>
+                                    <div class="icon-title-characteristics">
+                                        <span class="icon-pool"></span>
+                                        <p>Heat pipe</p>
+                                    </div>
+                                    <div class="icon-title-characteristics">
+                                        <span class="icon-active"></span>
+                                        <p>Активный</p>
+                                    </div>
+                                    <div class="icon-title-characteristics">
+                                        <span class="icon-shipping"></span>
+                                        <p>Бесплатная доставка</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </a>
-                </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="#">
+                            <div class="product-min-cart">
+                                <a href="#">
+                                    <img src="img/img_1.jpg" alt="" title="">
+                                </a>
+                                <a href="#" class="product-title">Солнечные батарея 1</a>
+                                <span class="cod-product">
+                                Код: 193284 KH
+                            </span>
+                                <p class="price-product">
+                                    39 000.99 грн
+                                </p>
+                                <div class="block-buy-product">
+                                    <a href="#">Купить</a>
+                                    <button type="button">
+                                        <i class="material-icons">equalizer</i>
+                                    </button>
+                                </div>
+                                <div class="block-icon-characteristics">
+                                    <div class="icon-title-characteristics">
+                                        <span class="icon-season"></span>
+                                        <p>Сезонность</p>
+                                    </div>
+                                    <div class="icon-title-characteristics">
+                                        <span class="icon-pool"></span>
+                                        <p>Heat pipe</p>
+                                    </div>
+                                    <div class="icon-title-characteristics">
+                                        <span class="icon-active"></span>
+                                        <p>Активный</p>
+                                    </div>
+                                    <div class="icon-title-characteristics">
+                                        <span class="icon-discount"></span>
+                                        <p>Скидка</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
             <?php }?>
             </div>
         </div>
@@ -379,12 +459,7 @@
                 <li>
                     <a href="#">Системы гофрированных трубопроводов</a>
                 </li>
-                <li>
-                    <a href="#">Теплоизолированный трубопровод NanoFlex</a>
-                </li>
-                <li>
-                    <a href="#">Коллекторы гелиосистем серии SR, M-x</a>
-                </li>
+
             </ul>
         </div>
     </div>
@@ -457,6 +532,7 @@
 <link rel="stylesheet" href="css/custom.css"/>
 <link rel="stylesheet" href="css/bootstrap.min.css"/>
 <link rel="stylesheet" href="css/font-awesome.min.css"/>
+
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 
