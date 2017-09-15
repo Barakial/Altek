@@ -1,8 +1,12 @@
 /*Меню выбора языка*/
-
 $('.active-menu-language').on('click', function () {
     $('.list-language').toggle();
 });
+/*Меню выбора страны*/
+$('.select-coutri button').on('click', function () {
+    $('.list-coutri').toggle();
+});
+
 var map;
 var myLatLng = {lat: 48.465959, lng: 35.04817};
 function initMap() {

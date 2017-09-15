@@ -390,6 +390,7 @@
     </div>
     <div class="col-md-6">
         <div class="social-icon-link-footer">
+            <p>Следите за нами</p>
             <ul>
                 <li>
                     <a href="#">
@@ -398,22 +399,57 @@
                 </li>
                 <li>
                     <a href="#">
-                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                        <i class="fa fa-youtube" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
                     </a>
                 </li>
             </ul>
         </div>
         <div class="subscribe-footer-news">
+            <p>Подпишитесь на рассылку</p>
             <form action="">
                 <input type="text" placeholder="Ваш e-mail">
                 <button type="button">Подписаться</button>
             </form>
-            <p>Подписавшись на новостной дайджест, Вы даете согласие на получение писем на указанный email. Вы можете управлять подпиской на странице личного кабинета.</p>
+            <span>Подписавшись на новостной дайджест, Вы даете согласие на получение писем на указанный email. Вы можете управлять подпиской на странице личного кабинета.</span>
         </div>
     </div>
     </div>
 </div>
 </footer>
+<div class="license">
+    <div class="container">
+        <span>© Altek 2017</span>
+        <p>
+            Все права защищены. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+        </p>
+        <div class="select-coutri">
+            <button type="button">
+                <img src="img/ukr.png" alt="language-urk" title="language-ukr">
+                Украина
+                <i class="fa fa-angle-down"></i>
+            </button>
+            <ul class="list-coutri">
+                <li>
+                    <a href="/">
+                        <img src="img/rus.png" alt="language-ru" title="language-ru">
+                        Россия
+                    </a>
+                </li>
+                <li>
+                    <a href="/">
+                        <img src="img/ukr.png" alt="language-urk" title="language-ukr">
+                        Украина
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/stylesheet.css">
 <link rel="stylesheet" href="css/fonts.css">
