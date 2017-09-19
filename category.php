@@ -343,7 +343,6 @@
     </div>
 </div>
 
-</body>
 <footer>
 <div class="container">
     <div class="col-md-3">
@@ -525,6 +524,7 @@
         </div>
     </div>
 </div>
+</body>
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/stylesheet.css">
 <link rel="stylesheet" href="css/fonts.css">

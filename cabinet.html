@@ -70,28 +70,142 @@
         </div>
     </div>
 </header>
-<div class="wrapper-bg">
+<div class="breadcrumbs">
     <div class="container">
-        <div class="form-login">
-            <h1 class="title-name-form">Вход в личный кабинет</h1>
-            <form action="" method="post" class="modal-form-login">
-                <div class="group-input">
-                    <label for="input-name">Логин или e-mail</label>
-                    <input type="text" id="input-name" name="name">
-                </div>
-                <div class="group-input">
-                    <label class="pass-style" for="password">Пароль</label>
-                    <a href="#">Забыли пароль?</a>
-                    <input type="password" id="password" name="password">
-                </div>
-                <div class="remember-check">
-                    <input type="checkbox" name="" id="forgot-password">
-                    <label for="forgot-password">Запомнить меня</label>
-                </div>
-                <button type="submit">Вход</button>
-            </form>
-            <a href="/registration.html" class="link-registration">Зарегистрироваться</a>
+        <ul>
+            <li>
+                <a href="#">Главная Altek</a>
+            </li>
+            <li>
+                <a href="#">Личный кабинет</a>
+            </li>
+            <li>
+                <a href="#">Контактная информация</a>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="content-account">
+    <div class="top-navigation-account">
+        <div class="container">
+            <h1 class="title-page-account">Личный кабинет</h1>
+            <ul class="nav-account">
+                <li>
+                    <a href="#">Контактная информация</a>
+                </li>
+                <li>
+                    <a href="#">Смена пароля</a>
+                </li>
+                <li>
+                    <a href="#">Избранное</a>
+                </li>
+                <li>
+                    <a href="#">Сравнение товаров</a>
+                </li>
+                <li>
+                    <a href="#">История заказов</a>
+                </li>
+                <li>
+                    <a href="#">Управление подпиской</a>
+                </li>
+            </ul>
         </div>
+    </div>
+    <div class="content-info-clinet">
+        <div class="container">
+            <div class="col-md-6">
+                <div class="blue-block-header">
+                 <span class="title-blue-block">
+                     Контактная информация
+                 </span>
+                    <form action="" method="post" class="form-info-client">
+                        <div class="group-account-input">
+                            <label for="account-name">Полное имя</label>
+                            <input type="text" id="account-name" name="account-name" value="Иванов Иванов Иванович">
+                        </div>
+                        <div class="group-account-input">
+                            <label for="account-login">Логин</label>
+                            <input type="text" id="account-login" name="account-login" value="user372582">
+                        </div>
+                        <div class="group-account-input">
+                            <label for="account-email">E-mail</label>
+                            <input type="text" id="account-email" name="account-email" value="ivanon@gmail.com">
+                        </div>
+                        <div class="group-account-input">
+                            <label for="account-phone">Телефон</label>
+                            <input type="text" id="account-phone" name="account-phone" value="+38 (099) 999-99-99">
+                        </div>
+                        <div class="group-account-input">
+                            <label>Тип учетной записи</label>
+                            <div class="radio-account">
+                                <input type="radio" id="individual" name="region">
+                                <label for="individual">Физическое лицо</label>
+
+                                <input type="radio" id="entity" name="region">
+                                <label for="entity">Юридическое лицо</label>
+                            </div>
+                        </div>
+                        <div class="group-account-input">
+                            <label>Ругион</label>
+                            <select class="account-select-edit-info">
+                                <option>Украина</option>
+                                <option>Украина</option>
+                                <option>Украина</option>
+                            </select>
+                        </div>
+                        <div class="group-account-input">
+                            <label>Город</label>
+                            <select class="account-select-edit-info">
+                                <option>Киев</option>
+                                <option>Днепр</option>
+                                <option>Херсон</option>
+                            </select>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="blue-block-header">
+                 <span class="title-blue-block">
+                     Информация по доставке
+                 </span>
+                    <form action="" method="post" class="form-info-client">
+                        <div class="group-account-input">
+                            <label for="account-address">Адрес доставки</label>
+                            <input type="text" id="account-address" name="account-address" value="г. Киев, Киевская область, ул. Петлюры, 11Б/72">
+                        </div>
+                        <div class="group-account-input">
+                            <div class="group-account-input">
+                                <label>Отделение Новой
+                                    Почты</label>
+                                <select class="account-select-edit-info">
+                                    <option>Отделение № 88</option>
+                                    <option>Отделение № 89</option>
+                                    <option>Отделение № 90</option>
+                                </select>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="blue-block-header">
+                 <span class="title-blue-block">
+                     Отследить посылку
+                 </span>
+                    <div class="info-track">
+                        <p>
+                            Вы можете отследить, где находится Ваша посылка, указав свой номер
+                            накладной Новой Почты в поле ниже:
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content-button-edit">
+        <center>
+            <a href="#" class="button-cabinet-edit">Редактировать</a>
+        </center>
     </div>
 </div>
 <footer>
@@ -276,7 +390,6 @@
     </div>
 </div>
 </body>
-
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/stylesheet.css">
 <link rel="stylesheet" href="css/fonts.css">

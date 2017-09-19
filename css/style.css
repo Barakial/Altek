@@ -1461,3 +1461,200 @@ label#email-error{
     width: auto;
     margin-top: 4px;
 }
+.top-navigation-account {
+    display: inline-block;
+    width: 100%;
+    background: #e9e9e9;
+    padding-bottom: 10px;
+}
+h1.title-page-account {
+    font-family: 'GothamPro-Medium';
+    font-size: 21px;
+    color: #000;
+    border-bottom: 2px solid #b91631;
+    padding-bottom: 15px;
+    padding-left: 20px;
+}
+ul.nav-account li {
+    display: inline-block;
+    list-style: none;
+}
+ul.nav-account li a {
+    font-family: 'GothamPro-Medium';
+    color: #3a4d67;
+    font-size: 15px;
+    padding: 0 15px;
+}
+.content-info-clinet {
+/*    display: inline-block;*/
+    width: 100%;
+    background: #f4f4f4;
+    padding: 37px 0px;
+}
+.blue-block-header {
+    width: 100%;
+    display: inline-block;
+    background: #ffffff;
+    border-left: 1px solid #e9e9e9;
+    border-bottom: 1px solid #e9e9e9;
+    border-right: 1px solid #e9e9e9;
+    padding-bottom: 25px;
+    margin-bottom: 30px;
+}
+span.title-blue-block {
+    display: inline-block;
+    width: 100%;
+    background: #5a7a9d;
+    color: #fff;
+    padding: 3px 20px;
+    border-right: 1px solid #5a7a9d;
+    border-left: 1px solid #5a7a9d;
+    border-radius: 2px 2px 0px 0px;
+    font-family: 'GothamPro-Bold';
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.group-account-input {
+    margin-top: 20px;
+    display: inline-block;
+    width: 100%;
+    height: 23px;
+}
+form.form-info-client .group-account-input label {
+    float: left;
+    width: 30%;
+    padding-left: 20px;
+}
+form.form-info-client .group-account-input input {
+    float: right;
+    width: 66%;
+    border: none;
+    outline: none;
+    font-family: 'GothamPro';
+    color: #2a3a53;
+    font-size: 14px;
+    margin-right: 5px;
+    border-bottom: 1px solid #afbed2;
+    padding-bottom: 5px;
+}
+form.form-info-client .group-account-input label {
+    float: left;
+    width: 33%;
+    padding-left: 20px;
+    font-size: 12px;
+    color: #2a3a53;
+    text-transform: uppercase;
+    font-family: 'GothamPro';
+}
+.group-account-input select {
+    border: none;
+    border-bottom: 1px solid #afbed2;
+    width: 66%;
+    font-family: 'GothamPro';
+    color: #2a3a53;
+    font-size: 14px;
+    padding-bottom: 5px;
+    outline: none;
+    margin-right: 5px;
+}
+.info-track {
+    padding: 15px;
+}
+.content-button-edit {
+    display: inline-block;
+    width: 100%;
+    background: #e9e9e9;
+    padding: 35px 0px;
+}
+.button-cabinet-edit {
+    display: inline-block;
+    width: 230px;
+    height: 55px;
+    background: #b91631;
+    line-height: 55px;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'GothamPro-Medium';
+    border: none;
+    border-radius: 2px;
+}
+.button-cabinet-edit:hover {
+    color: #fff;
+}
+.group-change-password {
+    width: 303px;
+}
+.change-password-form .group-change-password {
+    height: 80px;
+    margin-bottom: 0px;
+}
+.change-password-form .group-change-password label {
+    width: 100%;
+    color: #2a3a53;
+    text-transform: uppercase;
+    font-family: 'GothamPro';
+    font-size: 12px;
+    margin-bottom: 0px;
+    padding-left: 10px;
+}
+.change-password-form .group-change-password input {
+    width: 100%;
+    height: 48px;
+    background: #fff;
+    border: 1px solid #afbed2;
+    border-radius: 2px;
+    outline: none;
+    padding: 0px 10px;
+}
+.modal-change-password .modal-content {
+    box-shadow: none;
+    border: none;
+    border-radius: 0px;
+}
+.modal-change-password .modal-header {
+    padding: 0px 20px;
+    border: none;
+}
+.modal-change-password .modal-body {
+    padding: 15px 20px;
+}
+.modal-change-password .modal-body p {
+    font-family: 'GothamPro';
+    font-size: 14px;
+    color: #000;
+}
+.modal-change-password .modal-footer {
+    padding: 15px 20px;
+    border: none;
+}
+.modal-change-password .modal-title {
+    margin: 0;
+    line-height: normal;
+    font-family: 'GothamPro-Medium';
+    color: #000;
+    font-size: 18px;
+    padding-top: 30px;
+    border-bottom: 2px solid #b91631;
+    padding-bottom: 15px;
+}
+.modal-change-password button.btn-save-password {
+    width: 80px;
+    height: 30px;
+    border: 2px solid #b91631;
+    background: #b91631;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'GothamPro-Medium';
+    font-size: 12px;
+}
+.modal-change-password button.btn-cancel-password {
+    width: 80px;
+    height: 30px;
+    border: 2px solid #2a3a53;
+    background: transparent;
+    color: #2a3a53;
+    text-transform: uppercase;
+    font-family: 'GothamPro-Medium';
+    font-size: 12px;
+    margin-left: 10px;
+}

@@ -79,6 +79,40 @@ $(document).ready(function () {
 
     });
     /* ================================ */
+
+    /*Валидация формы смена пароля*/
+    $("#change_password_account").validate({
+
+        rules: {
+
+            new_password: {
+                required: true,
+                minlength: 5
+            },
+            new_password_confirm: {
+                required: true,
+                minlength: 5,
+                equalTo: "#new_password"
+            }
+        },
+
+        messages: {
+
+            new_password: {
+                required: "Это поле обязательно для заполнения",
+                minlength: jQuery.validator.format("Пароль должен быть минимум {0} символа")
+            },
+
+            new_password_confirm: {
+                required: "Повторите пароль",
+                minlength: jQuery.validator.format("Пароль должен быть минимум {0} символа"),
+                equalTo: "Пароли не совпадают"
+            }
+
+        }
+
+    });
+    /* ================================ */
 });
 /*
  $(imgSwap).preload();
