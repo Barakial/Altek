@@ -1165,6 +1165,7 @@ button.add-cart-accessories {
 }
 .button-add-accessories button[disabled] {
     opacity: 0.5;
+    cursor: no-drop;
 }
 .carousel-product {
     box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.11);
@@ -1176,4 +1177,287 @@ button.add-cart-accessories {
     width: 100%;
     margin-bottom: 25px;
     margin-top: 55px;
+}
+.carousel-product-cart .owl-prev i {
+    position: absolute;
+    left: 45%;
+    font-size: 48px;
+    color: #e6e6e6;
+}
+.carousel-product-cart .owl-next i {
+    position: absolute;
+    right: 45%;
+    font-size: 48px;
+    color: #e6e6e6;
+}
+.carousel-product-cart .owl-nav {
+    margin: 0px auto;
+    display: block;
+    padding: 40px 0px;
+}
+.wrapper-bg {
+    width: 100%;
+    padding-top: 70px;
+    background: url(../img/bg-all-content.jpg) 50% 50%;
+    background-size: cover;
+    height: 1080px;
+}
+.form-login {
+    float: right;
+    margin-top: 165px;
+    background: #f4f4f4;
+    width: 500px;
+}
+h1.title-name-form {
+    text-align: center;
+    margin-top: 45px;
+    font-family: 'GothamPro-Medium';
+    color: #000;
+    font-size: 28px;
+    display: block;
+    position: relative;
+    margin-bottom: 70px;
+}
+h1.title-name-form:before {
+    content: '';
+    border-bottom: 2px solid #b91631;
+    position: absolute;
+    width: 55%;
+    left: 21%;
+    top: 100%;
+    margin-top: 33px;
+}
+form.modal-form-login {
+    width: 100%;
+    display: inline-block;
+    padding: 0 25px;
+}
+form.modal-form-login .group-input label {
+    width: 100%;
+    color: #2a3a53;
+    text-transform: uppercase;
+    font-family: 'GothamPro';
+    font-size: 12px;
+    margin-bottom: 0px;
+    padding-left: 10px;
+}
+form.modal-form-login .group-input input {
+    width: 100%;
+    height: 48px;
+    background: #fff;
+    border: 1px solid #afbed2;
+    border-radius: 2px;
+    outline: none;
+    padding: 0px 10px;
+}
+form.modal-form-login .group-input a {
+    float: right;
+    border: none;
+    background: none;
+    font-size: 12px;
+    color: #2a3a53;
+    font-family: 'GothamPro';
+}
+form.modal-form-login .group-input .pass-style {
+    float: left;
+    display: inline-block;
+    width: auto;
+}
+.group-input {
+    margin-bottom: 25px;
+}
+#forgot-password + label {
+    cursor: pointer;
+    font-family: 'GothamPro';
+    color: #2a3a53;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+input[type='checkbox']:not(checked) {
+    position: absolute;
+    opacity: 0;
+}
+
+input[type='checkbox']:not(checked) + label {
+    position: relative;
+    padding: 0 0 0 25px;
+}
+
+input[type='checkbox']:not(checked) + label:before {
+    content: '';
+    position: absolute;
+    top: 3px;
+    left: 2px;
+    width: 17px;
+    height: 17px;
+    border-radius: 1px;
+}
+
+input[type='checkbox']:not(checked) + label:after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 0;
+    width: 17px;
+    height: 17px;
+    border-radius: 1px;
+    border: 1px solid #afbed2;
+}
+
+input[type='checkbox']:checked + label:before {
+    content: "\f00c";
+    position: absolute;
+    color: #b91631;
+    transition: all .2s;
+    font: normal normal normal 14px/1 FontAwesome;
+}
+
+input[type='checkbox']:checked + label:after {
+}
+
+input[type='checkbox']:focus + label:before {
+}
+.remember-check {
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+form.modal-form-login button {
+    width: 100%;
+    border: none;
+    background: #b91631;
+    height: 55px;
+    color: #fff;
+    font-family: 'GothamPro-Medium';
+    font-size: 18px;
+    margin-bottom: 25px;
+    border-radius: 2px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.32);
+}
+a.link-registration {
+    text-align: center;
+    display: block;
+    line-height: 55px;
+    color: #fff;
+    background: #2a3a53;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'GothamPro';
+}
+a.link-registration:hover {
+    color: #fff;
+}
+.form-registration {
+    float: right;
+    width: 702px;
+    background: #f4f4f4;
+    margin-top: 20px;
+}
+.form-registration .group-input {
+    height: 80px;
+    margin-bottom: 0px;
+}
+.group-input-radio {
+    height: 80px;
+}
+.group-input-radio label {
+    width: 100%;
+    line-height: 21px;
+}
+.group-input-radio label[for='entity'],
+.group-input-radio label[for='individual']{
+    width: 100%;
+    line-height: 21px;
+    font-family: 'GothamPro';
+    font-weight: 100;
+}
+label.title-label-type-record {
+    display: block;
+    width: 100%;
+    color: #2a3a53;
+    text-transform: uppercase;
+    font-family: 'GothamPro';
+    font-size: 12px;
+    margin-bottom: 1px;
+    padding-left: 10px;
+}
+input[type='radio']:not(checked) {
+    position: absolute;
+    opacity: 0;
+}
+
+input[type='radio']:not(checked) + label {
+    position: relative;
+    padding: 0 0 0 25px;
+    cursor: pointer;
+}
+
+input[type='radio']:not(checked) + label:before {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 0px;
+    width: 17px;
+    height: 17px;
+    border-radius: 1px;
+}
+
+input[type='radio']:not(checked) + label:after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 0;
+    width: 17px;
+    height: 17px;
+    border-radius: 100%;
+    border: 1px solid #afbed2;
+}
+
+input[type='radio']:checked + label:before {
+    content: "\f111";
+    position: absolute;
+    color: #6f829a;
+    transition: all .2s;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 10px;
+    line-height: 17px;
+    text-align: center;
+}
+form.modal-form-login button.upload-document-button {
+    background: #6f829a;
+    height: 45px;
+    margin-top: 18px;
+    font-size: 16px;
+}
+.capcha {
+    display: block;
+    width: 300px;
+    margin: auto;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.footer-form-registration {
+    display: inline-block;
+    width: 100%;
+}
+.footer-form-registration .remember-check {
+    padding-left: 0px;
+    margin-bottom: 15px;
+    padding-top: 7px;
+}
+p.author-hidden {
+    font-family: 'GothamPro';
+    font-size: 11px;
+    color: #666666;
+}
+label#login-error,
+label#password-error,
+label#password_confirm-error,
+label#email-error{
+    text-transform: none;
+    font-size: 11px;
+    color: #b91631;
+    float: right;
+    width: auto;
+    margin-top: 4px;
 }

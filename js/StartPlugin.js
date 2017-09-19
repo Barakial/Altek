@@ -1,5 +1,5 @@
 $(document).ready(function() {
-
+/*    Слайдер карочки товара*/
     $('.bxslider').bxSlider({
         mode: 'vertical',
         slideWidth: 300,
@@ -11,7 +11,9 @@ $(document).ready(function() {
         infiniteLoop: false,
         touchEnabled: true
     });
+    /*===================================*/
 
+    /*   фото товара*/
     $('.popap-slider').magnificPopup({
         delegate: 'a',
         type: 'image',
@@ -20,10 +22,12 @@ $(document).ready(function() {
         gallery: {
             enabled: true,
             navigateByImgClick: true,
-            preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+            preload: [0,1]
         }
     });
+    /*===================================*/
 
+    /*   Таб фото-видео попап*/
     $('.photo-video-tabs').magnificPopup({
         delegate: 'a',
         type: 'image',
@@ -32,16 +36,17 @@ $(document).ready(function() {
         gallery: {
             enabled: true,
             navigateByImgClick: true,
-            preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+            preload: [0,1]
         }
     });
-
+    /*===================================*/
+    /*   Карусель товаров*/
     $(".carousel-product-cart").owlCarousel({
         loop: false,
         margin: 40,
         items: 4,
         nav: true,
-        navText: ["<i class='fa fa-angle-left shares-prev'></i>", "<i class='fa fa-angle-right shares-next'></i>"],
+        navText: ["<i class='material-icons'>keyboard_arrow_left</i>", "<i class='material-icons'>keyboard_arrow_right</i>"],
         responsive: {
         0: {
             items: 1,
@@ -57,6 +62,10 @@ $(document).ready(function() {
                 loop: false,
         }
     }
+    /*===================================*/
 });
     $('.loupe_img').loupe();
+    $("#phone").mask("+38 (999) 999-9999");
+
+
 });
