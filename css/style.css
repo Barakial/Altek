@@ -1736,3 +1736,186 @@ p.item-in-stock.warning-stock {
 p.item-in-stock.none-stock {
     color: #bebebe;
 }
+.bg-table-compare {
+    background: #fff;
+    border: 1px solid #e9e9e9;
+    width: 100%;
+    display: inline-block;
+    position: relative;
+}
+table.purpleHorizon {
+    border: 1px solid #E9E9E9;
+    background-color: #FFFFFF;
+    width: 62%;
+    float: left;
+    text-align: center;
+    border-collapse: collapse;
+}
+table.purpleHorizon img {
+    width: 190px;
+}
+table.purpleHorizon td, table.purpleHorizon th {
+    border: 1px solid #E9E9E9;
+}
+table.purpleHorizon tbody td {
+
+}
+table.purpleHorizon tr:hover {
+    background: #EAECF0;
+    cursor: pointer;
+}
+table.purpleHorizon thead {
+    background: #F9F9F9;
+    border-bottom: 1px solid #E9E9E9;
+}
+table.purpleHorizon thead th {
+    font-size: 14px;
+    font-family: 'GothamPro-Medium';
+    font-weight: normal;
+    color: #3A4D67;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 17px;
+}
+table.purpleHorizon tfoot td {
+    font-size: 13px;
+}
+table.purpleHorizon tfoot .links {
+    text-align: right;
+}
+table.purpleHorizon tfoot .links a{
+    display: inline-block;
+    background: #792396;
+    color: #FFFFFF;
+    padding: 2px 8px;
+    border-radius: 5px;
+}
+td.title-compare-td {
+    font-size: 12px;
+    color: #3a4d67;
+    text-transform: uppercase;
+    font-family: 'GothamPro-Medium';
+    font-weight: normal;
+    padding: 17px 5px;
+    min-width: 200px;
+}
+td.info-compare-td {
+    font-size: 13px;
+    color: #000;
+    font-family: 'GothamPro';
+}
+button.buy-compare-product {
+    width: 120px;
+    height: 37px;
+    border: none;
+    border-radius: 3px;
+    background: #b91631;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'GothamPro-Medium';
+    margin: 10px 0px;
+}
+button.delete-list-compare-product {
+    border: none;
+    background: transparent;
+    font-size: 11px;
+    color: #3a4d67;
+    text-transform: uppercase;
+    font-family: 'GothamPro-Medium';
+    margin: 10px 0px;
+}
+table.purpleHorizon tr.last-tr-button {
+    border: none;
+    background: #f9f9f9;
+}
+table.purpleHorizon tr.last-tr-button:hover {
+    background: #efefef;
+    cursor: default;
+}
+tr.last-tr-button td {
+    border-color: #efefef;
+}
+a.button-compare-select-product {
+    position: absolute;
+    top: 50%;
+    width: 120px;
+    height: 37px;
+    border: none;
+    border-radius: 3px;
+    background: #b91631;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'GothamPro-Medium';
+    margin: 10px 0px;
+    line-height: 37px;
+    text-align: center;
+    left: 86%;
+}
+table.historytabs {
+    border: 1px solid #E9E9E9;
+    background-color: #FFFFFF;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+table.historytabs tbody tr {
+    border-bottom: 1px solid #E9E9E9;
+}
+table.historytabs td, table.historytabs th {
+
+    padding: 5px 2px;
+}
+table.historytabs tbody td {
+    font-size: 13px;
+    font-weight: bold;
+    color: #000000;
+    font-family: 'GothamPro';
+    padding: 19px 0px;
+}
+table.historytabs tr:nth-child(even) {
+    background: #F9F9F9;
+}
+table.historytabs thead {
+    background: #5A7A9D;
+}
+table.historytabs thead th {
+    font-size: 12px;
+    font-weight: normal;
+    font-family: 'GothamPro-Medium';
+    color: #FFFFFF;
+    text-align: center;
+    padding: 13px 0px;
+}
+table.historytabs tfoot td {
+    font-size: 13px;
+}
+table.historytabs tfoot .links {
+    text-align: right;
+}
+table.historytabs tfoot .links a{
+    display: inline-block;
+    background: #792396;
+    color: #FFFFFF;
+    padding: 2px 8px;
+    border-radius: 5px;
+}
+.status-order-product {
+    font-size: 13px;
+    font-family: 'GothamPro-Medium';
+    font-weight: normal;
+}
+.product-delivered {
+    color: #00a651;
+}
+.product-canceled {
+    color: #bebebe;
+}
+.product-transit {
+    color: #b91631;
+}
+.product-issued {
+    color: #f26522;
+}
+.product-in-processing {
+    color: #5a7a9d;
+}
