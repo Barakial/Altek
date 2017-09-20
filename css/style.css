@@ -1919,3 +1919,226 @@ table.historytabs tfoot .links a{
 .product-in-processing {
     color: #5a7a9d;
 }
+.img-subscribe-left {
+    float: left;
+    width: 30%;
+}
+.img-subscribe-left img {
+    display: block;
+    margin: auto;
+}
+.subscribe-content {
+    float: right;
+    width: 70%;
+}
+.subscribe-content h1 {
+    text-align: center;
+    font-size: 28px;
+    color: #000;
+    font-family: 'GothamPro-Medium';
+    text-transform: uppercase;
+    margin-top: 125px;
+}
+.subscribe-content p {
+    font-size: 18px;
+    color: #000;
+    font-family: 'GothamPro';
+    text-align: right;
+    padding-left: 20px;
+}
+form.subscribe-form {
+    float: right;
+    margin-top: 30px;
+}
+.group-radio-subscribe label {
+    font-size: 16px;
+    color: #2a3a53;
+    font-family: 'GothamPro';
+    font-weight: normal;
+}
+.group-radio-subscribe {
+    margin-bottom: 20px;
+}
+button.save-subscribe-button {
+    width: 230px;
+    height: 55px;
+    border-radius: 3px;
+    border: none;
+    background: #b91631;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'GothamPro-Medium';
+    float: right;
+}
+.content-checkout {
+    display: inline-block;
+    width: 100%;
+    background: #f4f4f4;
+}
+span.title-block-chekout {
+    font-family: 'GothamPro-Medium';
+    font-size: 21px;
+    color: #000;
+    margin-bottom: 15px;
+    display: block;
+    margin-top: 30px;
+}
+.group-input-checkout {
+    height: 80px;
+    margin-bottom: 0px;
+}
+form.form-presonal-data {
+    padding-bottom: 30px;
+}
+.group-input-checkout label {
+    width: 100%;
+    color: #2a3a53;
+    text-transform: uppercase;
+    font-family: 'GothamPro';
+    font-size: 12px;
+    margin-bottom: 0px;
+    padding-left: 10px;
+}
+.group-input-checkout input {
+    width: 100%;
+    height: 48px;
+    background: #fff;
+    border: 1px solid #afbed2;
+    border-radius: 2px;
+    outline: none;
+    padding: 0px 10px;
+}
+.content-checkout .group-input-radio {
+    height: 80px;
+    margin-top: 40px;
+}
+.content-checkout label.title-label-type-record {
+    margin-bottom: 15px;
+}
+.info-block0-presonal-data {
+    width: 100%;
+    display: inline-block;
+    margin-top: 50px;
+}
+.info-block0-presonal-data p {
+    color: #666666;
+    font-size: 12px;
+    font-family: 'GothamPro';
+}
+.block-product-list-checkout {
+    width: 100%;
+    display: inline-block;
+    background: #fafafa;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+.product-list-check {
+    width: 100%;
+    display: inline-block;
+    background: #fff;
+    border-radius: 3px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+.thumb-img-checkout {
+    float: left;
+    width: 29%;
+}
+.thumb-img-checkout img {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+.product-checkout {
+    width: 100%;
+    display: inline-block;
+    height: 125px;
+    position: relative;
+}
+button.delete-checkout-product {
+    position: absolute;
+    left: 94%;
+    top: 10px;
+    border: none;
+    background: transparent;
+}
+.center-block-product {
+    float: left;
+    width: 71%;
+}
+.title-product p {
+    width: 100%;
+    font-family: 'GothamPro-Medium';
+    font-size: 13px;
+    color: #2a3a53;
+    padding-right: 40px;
+    padding-top: 17px;
+}
+span.code-product {
+    font-size: 12px;
+    color: #393939;
+    font-family: 'GothamPro';
+    float: left;
+}
+p.new-price-checkout {
+    text-align: center;
+    font-size: 16px;
+    color: #393939;
+    font-family: 'GothamPro-Medium';
+    margin-bottom: 0px;
+}
+.cod-and-price {
+    width: 100%;
+    display: inline-block;
+    height: 45px;
+}
+.cod-and-price {
+    float: left;
+    width: 50%;
+}
+.and-price {
+    float: right;
+    width: 50%;
+}
+span.old-price-checkout {
+    text-align: center;
+    display: block;
+    font-family: 'GothamPro-Medium';
+    font-size: 12px;
+    color: #bebebe;
+    text-decoration: line-through;
+}
+.title-product {
+    height: 80px;
+}
+.price-checkout {
+    width: 100%;
+    display: inline-block;
+    border-top: 1px dashed #e1e1e1;
+}
+.price-checkout table {
+    margin-top: 20px;
+}
+td.price-order-td-discont {
+    font-size: 16px;
+    color: #000;
+    font-family: 'GothamPro';
+    padding: 5px 15px;
+}
+td.all-order-td-price {
+    font-size: 21px;
+    color: #000;
+    font-family: 'GothamPro';
+    padding: 5px 15px;
+}
+td.price-td-number-all {
+    font-size: 21px;
+    color: #2a3a53;
+    padding: 5px 15px;
+    font-family: 'GothamPro-Medium';
+}
+.content-button-order-checkout {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 30px;
+}

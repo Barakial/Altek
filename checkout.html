@@ -85,71 +85,179 @@
         </ul>
     </div>
 </div>
-<div class="content-account">
-    <div class="top-navigation-account">
-        <div class="container">
-            <h1 class="title-page-account">Личный кабинет</h1>
-            <ul class="nav-account">
-                <li>
-                    <a href="#">Контактная информация</a>
-                </li>
-                <li>
-                    <a href="#">Смена пароля</a>
-                </li>
-                <li>
-                    <a href="#">Избранное</a>
-                </li>
-                <li>
-                    <a href="#">Сравнение товаров</a>
-                </li>
-                <li>
-                    <a href="#">История заказов</a>
-                </li>
-                <li>
-                    <a href="#">Управление подпиской</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <div class="content-info-clinet">
-        <div class="container">
-            <div class="img-subscribe-left">
-                <img src="img/img-subscribe.png" alt="" title="">
-            </div>
-            <div class="subscribe-content">
-                <h1>
-                    Всегда оставатесь в курсе свежих ноВостей!
-                </h1>
-                <p>
-                    Подписавшись на новостную рассылку от Altek Вы не только получаете
-                    уведомления о новых поступлениях, скидках и акциях, Вы так же всегда будете
-                    владеть самой актуальнойинформацией из сферы альтернативной энергетики,
-                    узнавать о наилучших диллерских точках и многое другое.
-                </p>
-                <form class="subscribe-form">
-                    <div class="group-radio-subscribe">
-                        <label for="subscribe_radio">
-                            Оформить регулярную рассылку и оставаться в курсе актуальных событий
-                        </label>
-                        <input type="radio" name="" id="subscribe_radio">
+<div class="content-checkout">
+    <div class="container">
+        <h1 class="title-page-account">Оформление заказа</h1>
+        <div class="col-md-6">
+            <div class="personal-data-checkout">
+                <span class="title-block-chekout">
+                    Личные данные
+                </span>
+                <form class="form-presonal-data">
+                    <div class="group-input-checkout">
+                        <label>имя и фамилия</label>
+                        <input type="text" name="" placeholder="ФИО">
                     </div>
-                    <div class="group-radio-subscribe">
-                        <label for="not_subscribe_radio">
-                            Я не желаю получать корреспонденцию о лучших предложениях и акциях на свой e-mail
-                        </label>
-                        <input type="radio" name="" id="not_subscribe_radio">
+                    <div class="group-input-checkout">
+                        <label>телефон</label>
+                        <input type="text" name="" placeholder="Ваш телефон">
                     </div>
-                    <button type="button" class="save-subscribe-button">Сохранить</button>
+                    <div class="group-input-checkout">
+                        <label>адрес электронной почты</label>
+                        <input type="text" name="" placeholder="E-mail">
+                    </div>
+                    <div class="group-input-checkout">
+                        <label>город</label>
+                        <input type="text" name="" placeholder="">
+                    </div>
+                    <div class="group-input-radio">
+                        <label class="title-label-type-record">Способ доставки</label>
+
+                        <input type="radio" id="individual" name="region">
+                        <label for="individual">Курьерская доставка</label>
+
+                        <input type="radio" id="entity" name="region">
+                        <label for="entity">Самовывоз из почтового отделения</label>
+                    </div>
+                    <div class="group-input-radio">
+                        <label class="title-label-type-record">Метод оплаты*</label>
+
+                        <input type="radio" id="individual" name="region">
+                        <label for="individual">Оплата наличными курьеру при получении</label>
+
+                        <input type="radio" id="entity" name="region">
+                        <label for="entity">Оплата наложеннным платежом</label>
+
+                        <input type="radio" id="entity" name="region">
+                        <label for="entity">Безналичный платеж</label>
+                    </div>
+                    <div class="info-block0-presonal-data">
+                        <p>
+                            Поля, помеченные * являются обязательным для заполнения.
+                        </p>
+                        <p>
+                            По окончанию оформления заказа на Ваш адрес электронной почты будет выслано письмо с подтверждением покупки. Вскоре после обработки заказа в течение рабочего дня наш менеджер свяжется с Вами для уточнения деталей заказа, оплаты и доставки.
+                        </p>
+                    </div>
                 </form>
             </div>
         </div>
+        <div class="col-md-6">
+             <span class="title-block-chekout">
+                   Информация о заказе
+                </span>
+            <div class="block-product-list-checkout">
+                <div class="product-list-check">
+                    <div class="product-checkout">
+                        <button type="button" class="delete-checkout-product">
+                            x
+                        </button>
+                        <div class="thumb-img-checkout">
+                            <img src="img/product1.jpg" alt="" title="">
+                        </div>
+                        <div class="center-block-product">
+                            <div class="title-product">
+                                <p>
+                                    Солнечные батарея с длинным названием, занимающим всю строку (8 колонок), 2 или более строк
+                                </p>
+                            </div>
+                            <div class="cod-and-price">
+                                <span class="code-product">
+                                    Код: 193284 КН
+                                </span>
+                            </div>
+                            <div class="and-price">
+                                <p class="new-price-checkout">39 000.99</p>
+                                <span class="old-price-checkout">39 000.99</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-list-check">
+                    <div class="product-checkout">
+                        <button type="button" class="delete-checkout-product">
+                            x
+                        </button>
+                        <div class="thumb-img-checkout">
+                            <img src="img/product1.jpg" alt="" title="">
+                        </div>
+                        <div class="center-block-product">
+                            <div class="title-product">
+                                <p>
+                                    Солнечные батарея с длинным названием, занимающим всю строку (8 колонок), 2 или более строк
+                                </p>
+                            </div>
+                            <div class="cod-and-price">
+                                <span class="code-product">
+                                    Код: 193284 КН
+                                </span>
+                            </div>
+                            <div class="and-price">
+                                <p class="new-price-checkout">39 000.99</p>
+                                <span class="old-price-checkout">39 000.99</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-list-check">
+                    <div class="product-checkout">
+                        <button type="button" class="delete-checkout-product">
+                            x
+                        </button>
+                        <div class="thumb-img-checkout">
+                            <img src="img/product1.jpg" alt="" title="">
+                        </div>
+                        <div class="center-block-product">
+                            <div class="title-product">
+                                <p>
+                                    Солнечные батарея с длинным названием, занимающим всю строку (8 колонок), 2 или более строк
+                                </p>
+                            </div>
+                            <div class="cod-and-price">
+                                <span class="code-product">
+                                    Код: 193284 КН
+                                </span>
+                            </div>
+                            <div class="and-price">
+                                <p class="new-price-checkout">39 000.99</p>
+                                <span class="old-price-checkout">39 000.99</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="price-checkout">
+                    <table>
+                        <tbody>
+                        <tr>
+                            <td class="price-order-td-discont">Общая сумма заказа: </td>
+                            <td class="price-order-td-discont">156 003.96 грн</td>
+                        </tr>
+                        <tr>
+                            <td class="price-order-td-discont">Скидка: </td>
+                            <td class="price-order-td-discont">0 грн</td>
+                        </tr>
+                        <tr>
+                            <td class="all-order-td-price">Сумма к оплате: </td>
+                            <td class="price-td-number-all">156 003.96 грн</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="content-button-order-checkout">
+            <center>
+                <button href="#" class="button-cabinet-edit">Оформить заказ</button>
+            </center>
+        </div>
     </div>
+
 </div>
 <footer>
 <div class="container">
     <div class="col-md-3">
         <div class="logo-footer">
-            <img src="img/logo-header.png" alt="" title="">
+            <img src="img/logo-header.png">
         </div>
         <div class="phone-footer">
             <i class="material-icons">stay_primary_portrait</i>
