@@ -1658,3 +1658,81 @@ form.form-info-client .group-account-input label {
     font-size: 12px;
     margin-left: 10px;
 }
+.favorite-product {
+    width: 100%;
+    display: inline-block;
+    height: 147px;
+    margin-bottom: 20px;
+    background: #fff;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.21);
+}
+.favorite-product .left-thumb {
+    float: left;
+}
+.favorite-product .thumb-img {
+    width: 157px;
+    height: 157px;
+    float: left;
+}
+.favorite-product .thumb-img img {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+.favorite-product .name-product-code-stock {
+    float: left;
+}
+.favorite-product p.title-product {
+    font-family: 'GothamPro-Medium';
+    text-align: center;
+    margin-top: 25px;
+    color: #2a3a53;
+    font-size: 15px;
+    display: block;
+}
+.favorite-product span.code-product {
+    display: block;
+    font-family: 'GothamPro';
+    font-size: 12px;
+    color: #393939;
+    margin-top: 15px;
+}
+.favorite-product .item-in-stock {
+    color: #00a651;
+    font-family: 'GothamPro';
+    font-size: 12px;
+    margin-top: 15px;
+}
+.favorite-product .right-button-price-product {
+    float: right;
+    position: relative;
+}
+.favorite-product button.delete-favorite-product {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    border: none;
+    background: transparent;
+}
+.favorite-product .price-product-card p {
+    font-size: 16px;
+}
+.favorite-product .price-product-card span {
+    font-size: 12px;
+}
+.favorite-product .block-buy-product {
+    opacity: 1;
+    padding-right: 15px;
+    width: 215px;
+}
+.favorite-product .price-product-card {
+    margin-bottom: 20px;
+    margin-top: 25px;
+    height: 39px;
+}
+p.item-in-stock.warning-stock {
+    color: #f26522;
+}
+p.item-in-stock.none-stock {
+    color: #bebebe;
+}
