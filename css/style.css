@@ -2379,3 +2379,51 @@ a.text-button-next {
     font-size: 36px;
     margin-bottom: 15px;
 }
+.content-block-tutorial {
+    width: 100%;
+    display: inline-block;
+}
+.tutorial-thumb img {
+    display: block;
+    margin: auto;
+    width: 100%;
+    padding-right: 10px;
+}
+.content-block-tutorial button {
+    float: left;
+    width: 70px;
+    height: 65px;
+    border: none;
+    background: #b91631;
+    color: #fff;
+    font-size: 30px;
+}
+.title-block-tutorial {
+    float: left;
+    width: 290px;
+    height: 90px;
+    background: #fff;
+    border-radius: 0px 10px 10px 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.14);
+    margin-top: -22px;
+    margin-left: -3px;
+}
+.title-block-tutorial span {
+    color: #2a3a53;
+    font-size: 16px;
+    font-family: 'GothamPro-Medium';
+    padding: 10px 10px;
+    display: block;
+}
+.title-block-tutorial p {
+    color: #2a3a53;
+    font-size: 14px;
+    font-family: 'GothamPro';
+    padding: 0px 20px;
+}
+.tutorial-block {
+    margin-bottom: 20px;
+}
+.category-top-banner.online-tutorial-bg {
+    background-image: url(../img/online-tutorial-bg.jpg);
+}
