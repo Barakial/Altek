@@ -296,8 +296,8 @@
                                 </a>
                                 <a href="#" class="product-title">Солнечные батарея 1</a>
                                 <span class="cod-product">
-                                Код: 193284 KH
-                            </span>
+                                    Код: 193284 KH
+                                </span>
                                 <p class="price-product">
                                     39 000.99 грн
                                 </p>
