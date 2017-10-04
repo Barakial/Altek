@@ -178,3 +178,34 @@ function initMap() {
     });
 }
 
+var locations = [
+    ["Авторизированные сервисные центры в г.Киев", 49.588267,34.5514169, "img/logo-header.png"],
+    ["Авторизированные сервисные центры в г.Киев", 50.427342,30.469137, "img/logo-header.png"],
+    ["Название метки 2", 48.5241819,35.9107188, "img/logo-header.png"],
+];
+var map = new google.maps.Map(document.getElementById('map_contacts'), {
+    zoom: 7,
+    center: new google.maps.LatLng(50.0529506,30.7667133),
+    mapTypeId: google.maps.MapTypeId.ROADMAP
+});
+
+var infowindow = new google.maps.InfoWindow();
+var marker, i;
+
+for (i = 0; i < locations.length; i++) {
+    marker = new google.maps.Marker({
+        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+        map: map,
+        icon: {
+            url: locations[i][3],
+            scaledSize: new google.maps.Size(120, 50)
+        }
+    });
+    google.maps.event.addListener(marker, 'click', (function(marker, i) {
+        return function() {
+            infowindow.setContent(locations[i][0]);
+            infowindow.open(map, marker);
+        }
+    })(marker, i));
+}
+
